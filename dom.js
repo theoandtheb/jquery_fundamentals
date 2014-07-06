@@ -10,6 +10,9 @@
 // Find the Google search button and store it in a variable.
 // Modify the text of the button so that it says "Yahooo!" instead.
 
+// var img = document.getElementById('hplogo');
+// img.src = ('https://s.yimg.com/rz/d/yahoo_frontpage_en-CA_s_f_p_bestfit_frontpage.png');
+
 // EXERCISE: About Me
 
 // Cuz every webpage needs an "About" section.
@@ -39,6 +42,21 @@
 // Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page.
 
+// $('body').css({
+// 	'font-family': 'Arial, sans-serif'
+// })
+// $('#nickname').text('theoandtheb')
+// $('#favorites').text('Cats are pretty great, as are tamanduas')
+// $('#hometown').text('Ottawa')
+// var liArr = $('li')
+// for (i=0;i<3;i++) {
+// 	liArr[i].className = "listitem"
+// }
+// var pageNode = document.getElementsByTagName('body')[0];
+// var meimg = document.createElement('img');
+// meimg.src = 'http://photos1.meetupstatic.com/photos/member/8/f/e/a/highres_200436842.jpeg';
+// pageNode.appendChild(meimg);
+
 // EXERCISE: The Book List
 
 // Keep track of which books you read and which books you want to read!
@@ -50,3 +68,17 @@
 // Bonus: Use a ul and li to display the books.
 // Bonus: add a property to each book with the URL of the book cover, and add an img element for each book on the page.
 // Bonus: Change the style of the book depending on whether you have read it or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
